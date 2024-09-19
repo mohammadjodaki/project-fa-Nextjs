@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: DanaBold;
+    src: url(./fonts/dana-fanum\ bold.ttf);
+}
+@font-face {
+    font-family: Dana;
+    src: url(./fonts/Dana-fanum.ttf);
+}
+
+
+body{
+    direction: rtl;
+    font-family: DanaBold;
+}
+p{
+    font-family: Dana;
+}
